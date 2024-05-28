@@ -1,0 +1,33 @@
+:root{
+  --mainDark:#191919;
+  --lightOrange:#C9AC8C;
+
+}
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Arial" sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  background-color: var(--mainDark);
+}
+ul,ol{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.container{
+  max-width: 1300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.App{
+  
+}
